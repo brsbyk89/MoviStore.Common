@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieStore.Core.Caching", "MovieStore.Core.Caching\MovieStore.Core.Caching.csproj", "{C2A530A0-01AD-4EBA-A0FE-FF42CFDD78D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieStore.Core.Caching.Contract", "MovieStore.Core.Caching.Contract\MovieStore.Core.Caching.Contract.csproj", "{96E19F41-A846-479E-8889-2A7613467981}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Caching", "Caching", "{497A19BB-7106-47F2-8AB4-6FA5FE945DE4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2A530A0-01AD-4EBA-A0FE-FF42CFDD78D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2A530A0-01AD-4EBA-A0FE-FF42CFDD78D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2A530A0-01AD-4EBA-A0FE-FF42CFDD78D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2A530A0-01AD-4EBA-A0FE-FF42CFDD78D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96E19F41-A846-479E-8889-2A7613467981}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96E19F41-A846-479E-8889-2A7613467981}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96E19F41-A846-479E-8889-2A7613467981}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96E19F41-A846-479E-8889-2A7613467981}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C2A530A0-01AD-4EBA-A0FE-FF42CFDD78D5} = {497A19BB-7106-47F2-8AB4-6FA5FE945DE4}
+		{96E19F41-A846-479E-8889-2A7613467981} = {497A19BB-7106-47F2-8AB4-6FA5FE945DE4}
+	EndGlobalSection
+EndGlobal
