@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieStore.Core.Caching.Con
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Caching", "Caching", "{497A19BB-7106-47F2-8AB4-6FA5FE945DE4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{24A57729-F9DD-4D3D-903C-42020BC18695}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,10 @@ Global
 		{96E19F41-A846-479E-8889-2A7613467981}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96E19F41-A846-479E-8889-2A7613467981}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96E19F41-A846-479E-8889-2A7613467981}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24A57729-F9DD-4D3D-903C-42020BC18695}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24A57729-F9DD-4D3D-903C-42020BC18695}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24A57729-F9DD-4D3D-903C-42020BC18695}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24A57729-F9DD-4D3D-903C-42020BC18695}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

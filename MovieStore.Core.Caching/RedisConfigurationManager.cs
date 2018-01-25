@@ -12,7 +12,9 @@ namespace MovieStore.Core.Caching
         {
             get
             {
-                return (RedisConfigurationSection)ConfigurationManager.GetSection(SectionName);
+                RedisConfigurationSection redisConfigurationSection = (RedisConfigurationSection)ConfigurationManager.GetSection(SectionName);
+
+                return redisConfigurationSection;
             }
         }
 

@@ -10,7 +10,7 @@ namespace MovieStore.Core.Caching
 
         public RedisCacheProvider()
         {
-            _endPoint = new RedisEndpoint(RedisConfigurationManager.Config.Host, RedisConfigurationManager.Config.Port, RedisConfigurationManager.Config.Password, RedisConfigurationManager.Config.DatabaseID);
+            _endPoint = new RedisEndpoint(RedisConfigurationManager.Config.Host, RedisConfigurationManager.Config.Port, RedisConfigurationManager.Config.Password);
         }
 
         public void Set<T>(string key, T value)
